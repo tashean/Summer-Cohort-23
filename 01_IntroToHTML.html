@@ -1,0 +1,112 @@
+<!--
+    "!" or "bang" is a way for us to quickly create a boilerplste for our HTML
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    CTRL + / or CMD + /
+-->
+
+<!--
+    - DOCTYPE: declare exactly what it is, HTML Documemnt.
+    - lang: notes what language of the document, Helps assist search engines & browsers.
+    -The head tag holds all of our meta dtaa for the document.
+
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML</title>
+    <!-- 
+        <head> holds various information such as a title, viewport settings, links.
+        - charset: defines which characters are avaliable.
+            - 0-9, A-Z a-z, symbols
+            -UTF-8: covers almost all of the characters.
+        - http-equiv: Allows us to render older browser versions if necessary.
+        - name & content: Details on the user viewport, or screen, and auto scales as necessary.
+        - <title>: details the title of our document. This is displayed in the tab of the browser. 
+    -->
+</head>
+<body>
+    <!--body: What the client(the browser) will display when rendering -->
+    <h1>Examples of Structural ELements</h1>
+    <div>
+        <div>
+            - h1: heading. These range from h1-h6, getting smalller as the number increases.
+            <br>
+            - div: a division
+            <br>
+            - p: paragraph ELements
+            <br>
+            - img: provides us an element to preseny an image
+            <br>
+            - span: We can write a block of text without line breaks
+
+        </div>
+        <h2>SampleH2</h2>
+        <h3>Smple H3</h3>
+        <p> Here is a Paragrph ELement</p>
+        <!-- Ussing emmet, we can inject "Lorem" and hit tab to populate a block text. -->
+        <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio assumenda debitis officia magni harum animi aliquam necessitatibus, praesentium maxime dolores facilis doloremque labore consectetur? Omnis ea porro optio culpa debitis sequi doloremque non cum laudantium unde, expedita tenetur eligendi similique consectetur nisi cumque at consequuntur obcaecati harum est nam libero. Vero consequatur neque amet quia quae omnis ipsam dolores perspiciatis eaque autem. Veritatis eaque esse ipsum, dolorem similique sunt maxime maiores animi earum eum? Ipsam, quidem cumque laboriosam ut odio provident alias. Cum possimus perferendis ab velit ullam quibusdam voluptates voluptas, provident hic, autem saepe earum aperiam officia, cupiditate facilis quasi eligendi quas cumque placeat? Iure unde eos accusantium quo nulla veniam, labore laudantium suscipit iste magni, hic nisi? Dolorem dignissimos beatae tempora praesentium possimus hic magni earum fugiat minima consequuntur illo cum provident, nihil, unde minus eveniet, esse ipsum pariatur ullam deserunt aperiam officiis soluta quia asperiores! Eum ab dolor ad harum tempora fugiat praesentium tenetur ducimus architecto aspernatur excepturi officiis minima itaque soluta optio, totam quis possimus omnis? Molestiae fuga eaque perferendis quos fugiat labore dolor? Aut fugit dolore consequatur ducimus dignissimos eaque. Earum est recusandae rerum quae minima quis amet iusto, velit atque! Quae, praesentium in. Explicabo minus cum aperiam culpa ea labore vero maiores praesentium porro! Dolorem rerum vitae quibusdam numquam eaque vero saepe dicta accusamus, ullam odit hic, officiis autem! Facilis aut officiis est porro accusantium praesentium nesciunt vel eligendi at dolore ipsa quaerat libero, qui recusandae nemo odit nam nobis quasi consequuntur sunt animi minima, velit tempora! Molestias culpa ipsa, repellat eveniet illo nulla veniam vel, neque aut assumenda accusamus labore possimus fuga placeat? Reiciendis eius magni, perferendis, nemo eligendi soluta odit repudiandae dolor reprehenderit velit tempore quis voluptatem id cumque aspernatur autem? Provident, eaque, dolorum voluptate nostrum, aliquam fugit amet incidunt cumque excepturi qui perspiciatis officiis distinctio. Nulla expedita commodi rerum inventore. Repellat nulla minus odit. Amet quasi modi obcaecati delectus expedita. Impedit nostrum cum rerum reiciendis doloribus dolores ipsam praesentium expedita adipisci nulla tempore ut possimus ex sit amet porro, quasi omnis ipsa alias cupiditate sequi iste? Aliquam nobis quam et voluptatum hic odio fuga est veniam nam corrupti. Porro eaque debitis cupiditate quasi. Ut aperiam consequuntur ipsa voluptate repellat delectus commodi molestiae iste, error recusandae corrupti explicabo numquam perspiciatis nesciunt debitis, placeat, quisquam quasi neque ab voluptatum earum vitae. Exercitationem maiores odio nesciunt necessitatibus quia error non fugiat id, repellendus quis, tempore quod et, debitis repellat minima sequi facere fuga voluptatum iusto ipsam? Molestiae non veritatis tenetur temporibus neque, vitae cupiditate excepturi. Officia optio ratione a nobis recusandae adipisci magni excepturi et earum accusamus ea itaque nisi laborum hic, atque, soluta vitae, maiores impedit non voluptatum unde quaerat repudiandae sit voluptatem. Veritatis fuga labore nobis placeat, quisquam hic sed? Recusandae distinctio voluptatum, repudiandae animi, dolor iusto, vitae error illum a aspernatur tempore earum commodi laborum. Illo, ullam quibusdam blanditiis repellat nesciunt eveniet commodi illum, odit dignissimos neque ut quam sequi voluptas, asperiores officiis eius consequuntur est quaerat at? Deleniti, mollitia nulla!
+        </span>
+        <img src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png" alt=" Upright Logo">
+        <img src= "../Assets/url.png" alt="example">
+        <!--
+            img tag has 2 defualt attributtes
+                - src
+                    - required
+                    - source of the image
+                - alt
+                    - optional - highly recommended
+        -->
+    </div>
+
+    <h1>Examples of Styled Elements</h1>
+    <!--
+        emmet example: div>ul>li*6
+        ul: Unordered list with 6 list items all within a parent div
+
+    -->
+    <div>
+        <ul>
+            <li><strong>Bolds our text</strong>but so does<b>this</b></li>
+            <li><em>Provides emphasis</em> or<i>italics</i></li>
+            <li><br>Will do a line break for us. </br><i>Notice the no closing tags?</i></li>
+            <li><hr />Gives us a horizontal rule or <b>dividing line</b> </li>
+            <li><blockquote>"quote"</blockquote></li>
+            <li><pre>A way to showcase code</pre></li>
+        </ul>
+    </div>
+    <h1>Examples of Self Closing ELements</h1>
+    <div>
+        <!--
+            Input: typically used in forms but not limited.
+                - Many different types: numbers, text, radical, emails, passwords, etc.
+            link: wont show up in the browser, but allows  us to connect other files (Like CSS)
+        
+            -->
+            <input type="text">
+            <input type="text" name="" id="">
+            <input type="color" name="" id="">
+            <input type="date" name="" id="">
+            <link rel="stylesheet" href="#">
+    </div>
+    <!--
+        Sample HTML layout of Page Structure
+    -->
+    <div>
+        <header>Header</header>
+        <aside>Aside</aside>
+        <section>
+            <article>Article</article>
+            <article>Article</article>
+        </section>
+        <footer>Footer</footer>
+    </div>
+
+</body>
+</html>

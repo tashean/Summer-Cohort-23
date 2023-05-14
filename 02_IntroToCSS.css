@@ -1,0 +1,63 @@
+/*
+    Building Blocks
+
+    selector {
+        [DECLARATION CLOCK]
+        property: value;
+    }
+    */
+    /* body {
+        background-color: darkgoldenrod
+    } */
+nav {
+    background-color: #e0b1aa;
+    /*
+        -preset color: red, blue, yelloe, etc.
+        - rgb & rgba (red green, blue, alpha)
+            - alpha detrmines transparency
+            - ex: rgb 200, 15, 100, .05)
+            - each color scales from 0 to 25 5
+        - Hexidecimal
+            - 16 digit: 0-9, A-F
+            -#d2f
+    */
+    overflow: hidden;
+}
+
+#home {
+    
+    float:left;
+}
+
+.btn{
+    float: right;
+    color: black ;
+    text-align: center;
+    padding: 14px 16px;
+    /*padding: 14px 16px 4px 16px; */
+    /*padding: 14px; <-- all sides are 14px*/
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav .btn {
+    /** Points to nav and Any class within it, or children within it; or children of, name "btn"*/
+    text-shawdow: 2px 2px 2px rgba(0,0,.5);
+}
+
+div .pargraph > p {
+    color: red;
+}
+
+.paragraph + div {
+    color: purple;
+}
+
+a:hover {
+    color:rgb(212, 99, 18);
+}
+
+a:active{
+    color:#cf5b76
+    text-shawdow: 2px 2px 2px rgb(255,255,255)
+}
